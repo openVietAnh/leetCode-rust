@@ -4,7 +4,7 @@ pub fn is_palindrome(s: String) -> bool {
         .to_string()
         .chars()
         .into_iter()
-        .filter(|c| c.is_alphabetic())
+        .filter(|c| c.is_alphanumeric())
         .collect();
     return filtered == filtered.chars().into_iter().rev().collect::<String>();
 }
