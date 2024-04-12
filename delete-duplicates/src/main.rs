@@ -1,5 +1,3 @@
-use std::intrinsics::needs_drop;
-
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
     pub val: i32,
