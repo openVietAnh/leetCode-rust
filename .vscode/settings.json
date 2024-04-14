@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\pascal-triangle-2\\Cargo.toml"
+    ]
+}
