@@ -1,4 +1,4 @@
-pub fn is_palindrome(s: String) -> bool {
+pub fn is_valid_palindrome(s: String) -> bool {
     let filtered: String = s
         .to_ascii_lowercase()
         .to_string()
