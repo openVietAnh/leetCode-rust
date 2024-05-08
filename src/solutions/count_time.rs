@@ -2,7 +2,11 @@ pub fn count_time(time: String) -> i32 {
     let (mut valid_hours, mut valid_minutes) = (1, 1);
     let chars: Vec<char> = time.chars().collect();
     if chars[0] == '?' {
-        valid_hours = 3;
+        valid_hours = if chars[1] == '?' || chars[1] as u8 <= 51 {
+            3
+        } else {
+            2
+        };
     }
     if chars[1] == '?' {
         if chars[0] == '?' {
