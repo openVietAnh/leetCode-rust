@@ -1,7 +1,11 @@
+#![allow(warnings)]
 use solutions::*;
 
 pub mod solutions;
 
 fn main() {
-    println!("{:?}", largest_sum_after_k_negations(vec![-1, -2, 3], 4));
+    println!(
+        "{:?}",
+        tuple_same_product(vec![20, 10, 6, 24, 15, 5, 4, 30])
+    );
 }
