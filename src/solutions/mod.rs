@@ -79,6 +79,7 @@ pub mod count_time;
 pub mod decompress_rl_elist;
 pub mod delete_duplicates;
 pub mod detect_capital_use;
+pub mod diagonal_sum;
 pub mod find_duplicates;
 pub mod first_bad_version;
 pub mod generate_parenthesis;
